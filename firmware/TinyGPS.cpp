@@ -24,8 +24,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #include "TinyGPS.h"
 #include <math.h>
 
-#define _GPRMC_TERM   "GPRMC"
-#define _GPGGA_TERM   "GPGGA"
+#define _GPRMC_TERM   "GNRMC"
+#define _GPGGA_TERM   "GNGGA"
 
 // Converts degrees to radians.
 #define radians(angleDegrees) (angleDegrees * M_PI / 180.0)
